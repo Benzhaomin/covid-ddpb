@@ -39,8 +39,8 @@ def totald(ncov: List[dict], country: str) -> List[int]:
         if d.get('countryCode') and d['countryCode'] == country:
             date = datetime.datetime.strptime(d["date"], '%Y-%m-%d').date()
             delta = (date - EPOCH).days
-            # exclude old data
-            if delta < 0:
+            # exclude out of range data
+            if delta < 0 or delta >= DAYS:
                 continue
             series[delta] = d['dead']
 
