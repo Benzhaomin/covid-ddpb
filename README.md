@@ -16,7 +16,7 @@ The death numbers are closer to the truth, until localities get completely overw
 
 Absolute numbers aren't that useful when comparing countries either so we use daily death per 1 billion people or `ddpb`.
 
-Starting at ~200 ddpb (moving average over 3 days), we can say the epidemic is really underway, call it Day 0. We can then align countries and compare them over time.
+Starting at ~30 ddpb (moving average over 3 days), we can say the epidemic is really underway, call it Day 0. We can then align countries and compare them over time.
 
 ## dataset.json
 
@@ -38,6 +38,10 @@ Country, 2020-01-23, 2020-01-24, 2020-01-25, 2020-01-26, ...
 Italy,   0,          1,          3,          9
 China,   0,          0,          0,          2
 ```
+
+## Analysis
+
+See [analysis.md](analysis.md) for an up-to-date summary of the state of the pandemic based on the DDPB metric.
 
 ## Dev
 

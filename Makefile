@@ -1,6 +1,6 @@
 .PHONY: test download dataset update clean
 
-all: download dataset check
+all: download dataset check analyze
 
 download:
 	wget -q -N https://raw.githubusercontent.com/canghailan/Wuhan-2019-nCoV/master/Wuhan-2019-nCoV.json -O ncov.json
@@ -13,9 +13,12 @@ dataset:
 check:
 	@test $(shell jq 'length' dataset.json) -ge 1
 
+analyze:
+	@python3 analyze.py
+
 test:
-	@python3 -m doctest build.py
-	@flake8 --max-line-length=120 build.py
+	@python3 -m doctest *.py
+	@flake8 --max-line-length=120 *.py
 
 clean:
 	rm -rf venv
