@@ -1,0 +1,5 @@
+test:
+  image: python:3.8
+  script:
+    - pip3 install flake8
+    - make test
