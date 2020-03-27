@@ -14,10 +14,11 @@ import datetime
 import json
 import operator
 from typing import List, Tuple
-from build import EPOCH
+from build import DAYS, EPOCH
 
 
 MIN_DDPB = 30
+MOV_AVG = 5
 
 
 def moving_average(series: List[int], window: int) -> List[int]:
@@ -99,18 +100,19 @@ def date_from_epoch(day: int) -> datetime.date:
 markdown = '''
 # Analysis
 
-Generated on {timestamp}
+Generated from data up to {lastdate} (included), on {timestamp}.
 
 {ong} countries have a hard-hitting epidemic ongoing out of {cnt} with enough data.
 
-We consider a `DDPB`, or Daily Death Per Billion, over 30 to mean the epidemic is ongoing.
+We consider a `DDPB`, or Daily Death Per Billion, over {minddpb} to mean the epidemic is ongoing.
+mAverage is moving over the last {movavg} days, tAverage is over the whole duration.
 
 {table}
 '''
 
 table = '''
-| Country | Latest | Peak | Peak Date | Start | End | Duration | Status |
-|----|----|----|----|----|----|----|----|
+| Country | DDPB | mAverage | tAverage | Peak | Total | Start | Peak Date | End | Duration |  Status |
+|---------|-----:|---------:|---------:|-----:|------:|------:|-----------|-----|----------|---------|
 '''
 
 if __name__ == "__main__":
@@ -119,10 +121,12 @@ if __name__ == "__main__":
 
     summary = []
     for c, d in dataset.items():
+        tdpb = sum(d)
         peakday, _ = find_peak(d)
         peakvalue = d[peakday]
-        averaged = moving_average(d, 3)
+        mavg = moving_average(d, MOV_AVG)
         start, end = find_boundaries(d)
+        duration = end - start
 
         if start > -1 and end < len(d) - 1:
             status = 'finished'
@@ -134,11 +138,14 @@ if __name__ == "__main__":
         r = {
             'country': c,
             'ddpb': d[-1],
+            'mavg': mavg[-1],
+            'tdpb': tdpb,
+            'tavg': int(tdpb / duration),
             'peakvalue': peakvalue,
             'peakdate': date_from_epoch(peakday),
             'start': date_from_epoch(start) if start else None,
             'end': date_from_epoch(end) if end != len(d) - 1 else None,
-            'duration': end - start,
+            'duration': duration,
             'status': status,
         }
         summary.append(r)
@@ -146,12 +153,17 @@ if __name__ == "__main__":
     summary.sort(key=lambda d: d['ddpb'], reverse=True)
 
     for s in summary:
-        table += f'| {s["country"]} | {s["ddpb"]} | ' \
-                 f'{s["peakvalue"]} | {s["peakdate"]} | ' \
-                 f'{s["start"]} | {s["end"]} | {s["duration"]} days | {s["status"]} |\n'
+        peak = '**' if s["ddpb"] == s["peakvalue"] else ''
+        table += f'| {s["country"]} | {peak}{s["ddpb"]:,}{peak} | {s["mavg"]:,} | {s["tavg"]:,} |' \
+                 f' {s["peakvalue"]:,} | {s["tdpb"]:,} |' \
+                 f' {s["start"]} | {s["peakdate"]} | {s["end"]} |' \
+                 f' {s["duration"]} days | {s["status"]} |\n'
 
     markdown = markdown.format(
         timestamp=datetime.datetime.utcnow().isoformat(),
+        lastdate=date_from_epoch(DAYS-1).isoformat(),
+        minddpb=MIN_DDPB,
+        movavg=MOV_AVG,
         table=table,
         cnt=len(summary),
         ong=len([s for s in summary if s["status"] == "ongoing"])
