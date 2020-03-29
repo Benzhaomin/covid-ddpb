@@ -112,7 +112,7 @@ mAverage is moving over the last {movavg} days, tAverage is over the whole durat
 
 table = '''
 | Country | DDPB | mAverage | tAverage | Peak | Total | Start | Peak Date | End | Duration |  Status |
-|---------|-----:|---------:|---------:|-----:|------:|------:|-----------|-----|----------|---------|
+|---------|-----:|---------:|---------:|-----:|------:|-------|-----------|-----|----------|---------|
 '''
 
 if __name__ == "__main__":
