@@ -18,7 +18,7 @@ import csv
 from typing import List
 
 EPOCH = datetime.date(2020, 1, 23)
-DAYS = (datetime.date.today() - EPOCH).days + 1
+DAYS = (datetime.date.today() - EPOCH).days
 
 
 def totald(ncov: List[dict], country: str) -> List[int]:
