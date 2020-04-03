@@ -140,7 +140,7 @@ if __name__ == "__main__":
             'ddpb': d[-1],
             'mavg': mavg[-1],
             'tdpb': tdpb,
-            'tavg': int(tdpb / duration),
+            'tavg': int(tdpb / duration) if duration else 0,
             'peakvalue': peakvalue,
             'peakdate': date_from_epoch(peakday),
             'start': date_from_epoch(start) if start else None,
