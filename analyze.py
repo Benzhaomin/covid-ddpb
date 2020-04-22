@@ -119,6 +119,10 @@ if __name__ == "__main__":
     with open('dataset.json') as f:
         dataset = json.load(f)
 
+    # add world stats
+    dataset['World'] = [sum([d[n] for d in dataset.values()]) for n in range(DAYS)]
+    dataset['World'] = list(map(lambda x: int(x/len(dataset)-1), dataset['World']))
+
     summary = []
     for c, d in dataset.items():
         tdpb = sum(d)
@@ -165,8 +169,8 @@ if __name__ == "__main__":
         minddpb=MIN_DDPB,
         movavg=MOV_AVG,
         table=table,
-        cnt=len(summary),
-        ong=len([s for s in summary if s["status"] == "ongoing"])
+        cnt=len(summary) - 1,
+        ong=len([s for s in summary if s["status"] == "ongoing"]) - 1
     )
 
     with open('analysis.md', 'w') as f:
