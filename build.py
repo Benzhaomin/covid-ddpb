@@ -36,7 +36,7 @@ def totald(ncov: List[dict], country: str) -> List[int]:
     series = [0]*DAYS
 
     for d in ncov:
-        if d.get('countryCode') and d['countryCode'] == country:
+        if d.get('countryCode') == country or d.get('country') == country:
             date = datetime.datetime.strptime(d["date"], '%Y-%m-%d').date()
             delta = (date - EPOCH).days
             # exclude out of range data
