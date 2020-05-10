@@ -1,9 +1,9 @@
 
 # Analysis
 
-Generated from data up to 2020-05-06 (included), on 2020-05-07T10:40:26.411634.
+Generated from data up to 2020-05-09 (included), on 2020-05-10T06:05:00.315299.
 
-50 countries have a hard-hitting epidemic ongoing out of 58 with enough data.
+53 countries have a hard-hitting epidemic ongoing out of 60 with enough data.
 
 We consider a `DDPB`, or Daily Death Per Billion, over 30 to mean the epidemic is ongoing.
 mAverage is moving over the last 5 days, tAverage is over the whole duration.
@@ -11,63 +11,65 @@ mAverage is moving over the last 5 days, tAverage is over the whole duration.
 
 | Country | DDPB | mAverage | tAverage | Peak | Total | Start | Peak Date | End | Duration |  Status |
 |---------|-----:|---------:|---------:|-----:|------:|-------|-----------|-----|----------|---------|
-| Belgium | 28,260 | 11,128 | 13,028 | 43,397 | 729,587 | 2020-03-11 | 2020-04-10 | None | 56 days | ongoing |
-| United Kingdom | 11,589 | 8,035 | 7,819 | 65,758 | 445,731 | 2020-03-10 | 2020-04-30 | None | 57 days | ongoing |
-| Canada | **9,174** | 4,816 | 2,288 | 9,174 | 114,437 | 2020-03-17 | 2020-05-06 | None | 50 days | ongoing |
-| Sweden | 8,778 | 5,811 | 5,395 | 30,270 | 296,725 | 2020-03-12 | 2020-04-16 | None | 55 days | ongoing |
-| United States | 7,418 | 5,183 | 4,289 | 20,282 | 223,052 | 2020-03-15 | 2020-04-16 | None | 52 days | ongoing |
-| Spain | 5,263 | 4,456 | 9,143 | 20,494 | 557,781 | 2020-03-06 | 2020-04-02 | None | 61 days | ongoing |
-| France | 5,124 | 3,468 | 6,338 | 22,130 | 392,969 | 2020-03-05 | 2020-04-16 | None | 62 days | ongoing |
-| Ireland | 4,200 | 4,494 | 5,112 | 46,202 | 281,192 | 2020-03-12 | 2020-04-25 | None | 55 days | ongoing |
-| Italy | 3,975 | 4,541 | 6,673 | 15,481 | 493,817 | 2020-02-22 | 2020-03-28 | None | 74 days | ongoing |
-| Peru | 3,108 | 2,443 | 954 | 3,357 | 44,873 | 2020-03-20 | 2020-05-01 | None | 47 days | ongoing |
-| Brazil | **2,862** | 1,872 | 794 | 2,862 | 38,127 | 2020-03-19 | 2020-05-06 | None | 48 days | ongoing |
-| Netherlands | 2,113 | 3,650 | 5,007 | 13,735 | 305,446 | 2020-03-06 | 2020-04-07 | None | 61 days | ongoing |
-| World | 1,977 | 1,527 | 1,540 | 3,535 | 89,368 | 2020-03-09 | 2020-04-16 | None | 58 days | ongoing |
-| Mexico | **1,827** | 1,003 | 497 | 1,827 | 19,383 | 2020-03-28 | 2020-05-06 | None | 39 days | ongoing |
-| Germany | 1,778 | 1,093 | 1,637 | 4,371 | 88,409 | 2020-03-13 | 2020-04-15 | None | 54 days | ongoing |
-| Denmark | 1,744 | 2,092 | 1,686 | 5,755 | 87,710 | 2020-03-15 | 2020-04-02 | None | 52 days | ongoing |
-| Panama | 1,707 | 1,072 | 914 | 2,439 | 51,197 | 2020-03-11 | 2020-04-21 | None | 56 days | ongoing |
-| Romania | 1,575 | 1,341 | 968 | 1,829 | 43,574 | 2020-03-22 | 2020-04-10 | None | 45 days | ongoing |
-| Portugal | 1,452 | 1,587 | 2,108 | 3,581 | 105,401 | 2020-03-17 | 2020-04-03 | None | 50 days | ongoing |
-| Switzerland | 1,297 | 1,084 | 3,415 | 9,792 | 211,740 | 2020-03-05 | 2020-04-15 | None | 62 days | ongoing |
-| Finland | 1,086 | 1,013 | 968 | 7,785 | 44,529 | 2020-03-21 | 2020-04-22 | None | 46 days | ongoing |
-| Honduras | **1,079** | 388 | 250 | 1,079 | 10,018 | 2020-03-27 | 2020-05-06 | None | 40 days | ongoing |
-| Hungary | 1,028 | 1,028 | 737 | 3,394 | 38,344 | 2020-03-15 | 2020-04-19 | None | 52 days | ongoing |
-| Moldova | 987 | 690 | 684 | 3,208 | 33,550 | 2020-03-18 | 2020-04-16 | None | 49 days | ongoing |
-| Iran | 961 | 805 | 1,097 | 1,946 | 79,039 | 2020-02-24 | 2020-04-04 | None | 72 days | ongoing |
-| Belarus | **950** | 401 | 328 | 950 | 11,815 | 2020-03-31 | 2020-04-20 | None | 36 days | ongoing |
-| Dominican Republic | 743 | 984 | 657 | 3,529 | 32,856 | 2020-03-17 | 2020-04-13 | None | 50 days | ongoing |
-| Turkey | 730 | 856 | 947 | 3,108 | 43,570 | 2020-03-21 | 2020-04-17 | None | 46 days | ongoing |
-| Poland | 602 | 376 | 363 | 943 | 18,919 | 2020-03-15 | 2020-04-25 | None | 52 days | ongoing |
-| Russian Federation | 597 | 510 | 295 | 729 | 10,651 | 2020-03-31 | 2020-04-29 | None | 36 days | ongoing |
-| Czech Republic | 565 | 395 | 551 | 1,506 | 24,277 | 2020-03-23 | 2020-04-15 | None | 44 days | ongoing |
-| Puerto Rico | 545 | 381 | 627 | 4,094 | 27,001 | 2020-03-24 | 2020-05-01 | None | 43 days | ongoing |
-| Colombia | 407 | 346 | 192 | 631 | 7,683 | 2020-03-27 | 2020-05-03 | None | 40 days | ongoing |
-| Bolivia | 361 | 433 | 209 | 542 | 7,761 | 2020-03-30 | 2020-05-05 | None | 37 days | ongoing |
-| Chile | 276 | 531 | 338 | 1,107 | 15,212 | 2020-03-22 | 2020-04-30 | None | 45 days | ongoing |
-| Saudi Arabia | 273 | 248 | 147 | 364 | 6,327 | 2020-03-24 | 2020-04-21 | None | 43 days | ongoing |
-| Afghanistan | 253 | 202 | 69 | 365 | 2,916 | 2020-03-25 | 2020-05-03 | None | 42 days | ongoing |
-| Ukraine | 248 | 248 | 188 | 429 | 7,370 | 2020-03-28 | 2020-04-28 | None | 39 days | ongoing |
-| Austria | 228 | 434 | 1,327 | 4,807 | 73,009 | 2020-03-12 | 2020-04-23 | None | 55 days | ongoing |
-| Pakistan | 203 | 121 | 71 | 243 | 2,660 | 2020-03-30 | 2020-05-01 | None | 37 days | ongoing |
-| Philippines | 200 | 150 | 113 | 476 | 6,247 | 2020-03-12 | 2020-04-12 | None | 55 days | ongoing |
-| Norway | 188 | 188 | 749 | 3,015 | 40,496 | 2020-03-13 | 2020-04-21 | None | 54 days | ongoing |
-| South Africa | 176 | 158 | 65 | 246 | 2,613 | 2020-03-27 | 2020-04-17 | None | 40 days | ongoing |
-| Egypt | 164 | 122 | 104 | 225 | 4,613 | 2020-03-23 | 2020-04-29 | None | 44 days | ongoing |
-| Algeria | 121 | 96 | 218 | 726 | 11,378 | 2020-03-15 | 2020-04-10 | None | 52 days | ongoing |
-| Israel | 120 | 360 | 621 | 1,682 | 28,582 | 2020-03-21 | 2020-04-10 | None | 46 days | ongoing |
-| Argentina | 90 | 207 | 169 | 1,377 | 7,138 | 2020-03-25 | 2020-03-30 | None | 42 days | ongoing |
-| Indonesia | 87 | 71 | 68 | 227 | 3,362 | 2020-03-18 | 2020-04-14 | None | 49 days | ongoing |
-| India | 83 | 80 | 47 | 140 | 1,241 | 2020-04-10 | 2020-05-05 | None | 26 days | ongoing |
-| Morocco | 55 | 60 | 129 | 531 | 5,050 | 2020-03-28 | 2020-04-05 | None | 39 days | ongoing |
-| Malaysia | 31 | 25 | 84 | 1,106 | 4,216 | 2020-03-17 | 2020-04-04 | None | 50 days | ongoing |
-| Nigeria | 26 | 41 | 100 | 89 | 501 | 2020-04-30 | 2020-05-03 | 2020-05-05 | 5 days | finished |
-| South Korea | 19 | 27 | 73 | 529 | 5,257 | 2020-02-23 | 2020-03-10 | 2020-05-05 | 72 days | finished |
-| Bangladesh | 18 | 19 | 46 | 91 | 1,117 | 2020-04-10 | 2020-04-17 | 2020-05-04 | 24 days | finished |
+| United Kingdom | 8,340 | 8,446 | 7,867 | 65,758 | 472,021 | 2020-03-10 | 2020-04-30 | None | 60 days | ongoing |
+| Ireland | 5,460 | 5,292 | 5,174 | 46,202 | 300,092 | 2020-03-12 | 2020-04-25 | None | 58 days | ongoing |
+| Belgium | 5,249 | 11,496 | 12,724 | 43,397 | 750,759 | 2020-03-11 | 2020-04-10 | None | 59 days | ongoing |
+| United States | 5,248 | 6,163 | 4,409 | 20,282 | 242,529 | 2020-03-15 | 2020-04-16 | None | 55 days | ongoing |
+| Sweden | 4,540 | 9,100 | 5,601 | 30,270 | 324,875 | 2020-03-12 | 2020-04-16 | None | 58 days | ongoing |
+| Italy | 4,093 | 4,436 | 6,607 | 15,481 | 508,741 | 2020-02-22 | 2020-03-28 | None | 77 days | ongoing |
+| Spain | 3,861 | 4,529 | 8,924 | 20,494 | 571,177 | 2020-03-06 | 2020-04-02 | None | 64 days | ongoing |
+| France | 3,693 | 4,108 | 6,209 | 22,130 | 403,633 | 2020-03-05 | 2020-04-16 | None | 65 days | ongoing |
+| Brazil | **3,688** | 2,853 | 941 | 3,688 | 48,021 | 2020-03-19 | 2020-05-09 | None | 51 days | ongoing |
+| Ecuador | 3,007 | 1,683 | 1,829 | 18,526 | 102,475 | 2020-03-14 | 2020-05-03 | None | 56 days | ongoing |
+| Peru | 2,704 | 2,660 | 1,065 | 3,357 | 53,265 | 2020-03-20 | 2020-05-01 | None | 50 days | ongoing |
+| Netherlands | 2,641 | 3,991 | 4,972 | 13,735 | 318,241 | 2020-03-06 | 2020-04-07 | None | 64 days | ongoing |
+| Switzerland | 2,359 | 1,603 | 3,321 | 9,792 | 215,867 | 2020-03-05 | 2020-04-15 | None | 65 days | ongoing |
+| Romania | 1,575 | 1,280 | 982 | 1,829 | 47,180 | 2020-03-22 | 2020-04-10 | None | 48 days | ongoing |
+| Mexico | 1,540 | 1,557 | 581 | 1,989 | 24,437 | 2020-03-28 | 2020-05-08 | None | 42 days | ongoing |
+| Panama | 1,463 | 1,511 | 954 | 2,439 | 56,318 | 2020-03-11 | 2020-04-21 | None | 59 days | ongoing |
+| Puerto Rico | 1,364 | 654 | 634 | 4,094 | 29,183 | 2020-03-24 | 2020-05-01 | None | 46 days | ongoing |
+| Hungary | 1,337 | 1,110 | 756 | 3,394 | 41,634 | 2020-03-15 | 2020-04-19 | None | 55 days | ongoing |
+| World | 1,238 | 1,547 | 1,492 | 3,421 | 91,024 | 2020-03-09 | 2020-04-16 | None | 61 days | ongoing |
+| Moldova | 1,234 | 1,085 | 711 | 3,208 | 37,005 | 2020-03-18 | 2020-04-16 | None | 52 days | ongoing |
+| Portugal | 1,161 | 1,219 | 2,056 | 3,581 | 108,981 | 2020-03-17 | 2020-04-03 | None | 53 days | ongoing |
+| Belarus | **1,056** | 485 | 340 | 1,056 | 13,293 | 2020-03-31 | 2020-05-09 | None | 39 days | ongoing |
+| Finland | 905 | 1,267 | 978 | 7,785 | 47,968 | 2020-03-21 | 2020-04-22 | None | 49 days | ongoing |
+| Canada | 764 | 4,843 | 2,354 | 9,174 | 124,784 | 2020-03-17 | 2020-05-06 | None | 53 days | ongoing |
+| Russian Federation | 722 | 653 | 324 | 729 | 12,664 | 2020-03-31 | 2020-04-29 | None | 39 days | ongoing |
+| Dominican Republic | 650 | 872 | 665 | 3,529 | 35,270 | 2020-03-17 | 2020-04-13 | None | 53 days | ongoing |
+| Turkey | 594 | 722 | 931 | 3,108 | 45,661 | 2020-03-21 | 2020-04-17 | None | 49 days | ongoing |
+| Iran | 591 | 768 | 1,081 | 1,946 | 81,144 | 2020-02-24 | 2020-04-04 | None | 75 days | ongoing |
+| Poland | 550 | 492 | 369 | 943 | 20,332 | 2020-03-15 | 2020-04-25 | None | 55 days | ongoing |
+| Germany | 511 | 1,353 | 1,614 | 4,371 | 92,037 | 2020-03-13 | 2020-04-15 | None | 57 days | ongoing |
+| Chile | 498 | 376 | 338 | 1,107 | 16,263 | 2020-03-22 | 2020-04-30 | None | 48 days | ongoing |
+| Colombia | 427 | 358 | 202 | 631 | 8,700 | 2020-03-27 | 2020-05-03 | None | 43 days | ongoing |
+| Bolivia | 361 | 542 | 239 | 995 | 9,569 | 2020-03-30 | 2020-05-08 | None | 40 days | ongoing |
+| Ukraine | 339 | 329 | 201 | 474 | 8,476 | 2020-03-28 | 2020-05-08 | None | 42 days | ongoing |
+| Saudi Arabia | 303 | 297 | 157 | 364 | 7,236 | 2020-03-24 | 2020-04-21 | None | 46 days | ongoing |
+| South Africa | **299** | 165 | 73 | 299 | 3,141 | 2020-03-27 | 2020-05-09 | None | 43 days | ongoing |
+| Czech Republic | 282 | 451 | 546 | 1,506 | 25,688 | 2020-03-23 | 2020-04-15 | None | 47 days | ongoing |
+| Afghanistan | 253 | 140 | 71 | 365 | 3,225 | 2020-03-25 | 2020-05-03 | None | 45 days | ongoing |
+| Argentina | 248 | 212 | 173 | 1,377 | 7,792 | 2020-03-25 | 2020-03-30 | None | 45 days | ongoing |
+| Egypt | 215 | 151 | 109 | 225 | 5,135 | 2020-03-23 | 2020-04-29 | None | 47 days | ongoing |
+| Honduras | 215 | 539 | 268 | 1,079 | 11,527 | 2020-03-27 | 2020-05-06 | None | 43 days | ongoing |
+| Norway | 188 | 150 | 720 | 3,015 | 41,060 | 2020-03-13 | 2020-04-21 | None | 57 days | ongoing |
+| Greece | 179 | 107 | 231 | 1,254 | 13,417 | 2020-03-12 | 2020-04-04 | None | 58 days | ongoing |
+| Japan | 141 | 106 | 83 | 313 | 4,897 | 2020-03-11 | 2020-05-02 | None | 59 days | ongoing |
+| Algeria | 121 | 120 | 214 | 726 | 11,813 | 2020-03-15 | 2020-04-10 | None | 55 days | ongoing |
+| Austria | 114 | 342 | 1,272 | 4,807 | 73,809 | 2020-03-12 | 2020-04-23 | None | 58 days | ongoing |
+| Pakistan | 96 | 157 | 78 | 243 | 3,125 | 2020-03-30 | 2020-05-01 | None | 40 days | ongoing |
+| Philippines | 76 | 154 | 115 | 476 | 6,684 | 2020-03-12 | 2020-04-12 | None | 58 days | ongoing |
+| Chad | 67 | 241 | 187 | 671 | 1,877 | 2020-04-29 | 2020-05-08 | None | 10 days | ongoing |
+| India | 67 | 88 | 50 | 140 | 1,459 | 2020-04-10 | 2020-05-05 | None | 29 days | ongoing |
+| Indonesia | 60 | 71 | 69 | 227 | 3,603 | 2020-03-18 | 2020-04-14 | None | 52 days | ongoing |
+| Nigeria | 52 | 31 | 66 | 89 | 599 | 2020-04-30 | 2020-05-03 | None | 9 days | ongoing |
+| Bangladesh | 48 | 38 | 44 | 91 | 1,285 | 2020-04-10 | 2020-04-17 | None | 29 days | ongoing |
+| Malaysia | 31 | 18 | 80 | 1,106 | 4,247 | 2020-03-17 | 2020-04-04 | None | 53 days | ongoing |
+| Morocco | 27 | 49 | 125 | 531 | 5,159 | 2020-03-28 | 2020-04-05 | 2020-05-08 | 41 days | finished |
+| Cameroon | 0 | 365 | 104 | 1,829 | 4,480 | 2020-03-25 | 2020-05-07 | 2020-05-07 | 43 days | finished |
 | China | 0 | 0 | 42 | 915 | 3,248 | 2020-01-30 | 2020-04-16 | 2020-04-16 | 77 days | finished |
-| Ecuador | 0 | 8,047 | 1,814 | 18,526 | 94,356 | 2020-03-14 | 2020-05-03 | 2020-05-05 | 52 days | finished |
-| Greece | 0 | 107 | 241 | 1,254 | 13,060 | 2020-03-12 | 2020-04-04 | 2020-05-05 | 54 days | finished |
-| Japan | 0 | 140 | 80 | 313 | 4,451 | 2020-03-11 | 2020-05-02 | 2020-05-05 | 55 days | finished |
-| United Arab Emirates | 0 | 744 | 344 | 2,127 | 15,518 | 2020-03-21 | 2020-05-05 | 2020-05-05 | 45 days | finished |
+| Denmark | 0 | 1,325 | 1,685 | 5,755 | 91,023 | 2020-03-15 | 2020-04-02 | 2020-05-08 | 54 days | finished |
+| Israel | 0 | 264 | 612 | 1,682 | 29,423 | 2020-03-21 | 2020-04-10 | 2020-05-08 | 48 days | finished |
+| South Korea | 0 | 15 | 73 | 529 | 5,276 | 2020-02-23 | 2020-03-10 | 2020-05-05 | 72 days | finished |
+| United Arab Emirates | 0 | 1,021 | 385 | 2,127 | 18,496 | 2020-03-21 | 2020-05-05 | 2020-05-08 | 48 days | finished |
 
