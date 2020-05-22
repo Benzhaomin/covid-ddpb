@@ -1,9 +1,9 @@
 
 # Analysis
 
-Generated from data up to 2020-05-21 (included), on 2020-05-22T06:35:48.209804.
+Generated from data up to 2020-05-21 (included), on 2020-05-22T06:51:10.414131.
 
-59 countries have a hard-hitting epidemic ongoing out of 64 with enough data.
+58 countries have a hard-hitting epidemic ongoing out of 63 with enough data.
 
 We consider a `DDPB`, or Daily Death Per Billion, over 30 to mean the epidemic is ongoing.
 mAverage is moving over the last 5 days, tAverage is over the whole duration.
@@ -11,9 +11,7 @@ mAverage is moving over the last 5 days, tAverage is over the whole duration.
 
 | Country | DDPB | mAverage | tAverage | Peak | Total | Start | Peak Date | End | Duration |  Status |
 |---------|-----:|---------:|---------:|-----:|------:|-------|-----------|-----|----------|---------|
-| Northern Ireland | 371,804 | 167,179 | 251,530 | 2,308,263 | 19,116,335 | 2020-03-06 | 2020-04-30 | None | 76 days | ongoing |
 | United Kingdom | 10,547 | 4,742 | 7,531 | 65,482 | 542,272 | 2020-03-10 | 2020-04-30 | None | 72 days | ongoing |
-| World | 6,853 | 3,500 | 5,382 | 38,035 | 392,951 | 2020-03-09 | 2020-04-30 | None | 73 days | ongoing |
 | Brazil | **5,036** | 3,891 | 1,443 | 5,036 | 90,939 | 2020-03-19 | 2020-05-21 | None | 63 days | ongoing |
 | United States | 4,469 | 3,928 | 4,340 | 20,144 | 290,826 | 2020-03-15 | 2020-04-16 | None | 67 days | ongoing |
 | Sweden | 3,931 | 3,871 | 5,434 | 29,483 | 380,404 | 2020-03-12 | 2020-04-16 | None | 70 days | ongoing |
@@ -33,6 +31,7 @@ mAverage is moving over the last 5 days, tAverage is over the whole duration.
 | Portugal | 1,361 | 1,438 | 1,909 | 3,597 | 124,145 | 2020-03-17 | 2020-04-03 | None | 65 days | ongoing |
 | Kuwait | 1,208 | 1,063 | 663 | 2,658 | 31,162 | 2020-04-04 | 2020-05-16 | None | 47 days | ongoing |
 | Bosnia and Herzegovina | 1,203 | 661 | 2,477 | 23,466 | 42,110 | 2020-05-04 | 2020-05-04 | None | 17 days | ongoing |
+| World | 1,151 | 942 | 1,375 | 3,245 | 100,405 | 2020-03-09 | 2020-04-16 | None | 73 days | ongoing |
 | South Africa | **986** | 421 | 116 | 986 | 6,382 | 2020-03-27 | 2020-05-21 | None | 55 days | ongoing |
 | Finland | 906 | 326 | 909 | 7,796 | 55,458 | 2020-03-21 | 2020-04-22 | None | 61 days | ongoing |
 | Bolivia | 880 | 616 | 336 | 1,321 | 17,514 | 2020-03-30 | 2020-05-20 | None | 52 days | ongoing |

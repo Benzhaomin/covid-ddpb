@@ -95,6 +95,7 @@ def trimzero(data: List[int]) -> List[int]:
 if __name__ == "__main__":
     with open('country-code.json') as c:
         code = {d['country']: d['abbreviation'] for d in json.load(c)}
+        code.pop('Northern Ireland', None)  # duplicate of UK (GB)
 
     with open('country-population.json') as p:
         population = {d['country']: int(d['population']) for d in json.load(p) if d['population']}
