@@ -2,13 +2,20 @@
 
 A look at the daily death per inhabitants caused by COVID-19 over time.
 
-Source: [canghailan/Wuhan-2019-nCoV](https://github.com/canghailan/Wuhan-2019-nCoV).
+Sources:
+
+- [canghailan/Wuhan-2019-nCoV](https://github.com/canghailan/Wuhan-2019-nCoV).
+- which itself uses [今日头条/Toutiao](https://i.snssdk.com/forum/home/v1/info/?forum_id=1656784762444839)
+
+Publications:
+
+- [CoronaWhy Dataverse](http://datasets.coronawhy.org/dataset.xhtml?persistentId=doi:10.5072/FK2/RNGBW9)
 
 ## Rationale
 
 The basic idea is that confirmed cases numbers can't be relied on, due to:
 
-- widly varying amount of tests per country and over time (some countries don't test, then test a lot, then just give up on testing)
+- wildly varying amount of tests per country and over time (some countries don't test, then test a lot, then just give up on testing)
 - high variance in test protocols, methods and reliability
 - cooked numbers
 
