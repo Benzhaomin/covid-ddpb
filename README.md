@@ -1,6 +1,6 @@
 # COVID DDPB
 
-A look at the daily death per inhabitants caused by COVID-19 over time.
+A look at the daily death per capita caused by COVID-19 over time.
 
 Sources:
 
