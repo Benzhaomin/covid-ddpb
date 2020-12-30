@@ -1,7 +1,7 @@
 
 # Analysis
 
-Generated from data up to 2020-12-27 (included), on 2020-12-28T09:15:30.142719.
+Generated from data up to 2020-12-29 (included), on 2020-12-30T19:12:52.606780.
 
 -1 countries have a hard-hitting epidemic ongoing out of 90 with enough data.
 
@@ -101,5 +101,5 @@ mAverage is moving over the last 5 days, tAverage is over the whole duration.
 | Uzbekistan | 0 | 0 | 73 | 303 | 18,476 | 2020-03-27 | 2020-09-15 | 2020-12-02 | 250 days | finished |
 | Venezuela | 0 | 0 | 125 | 415 | 32,114 | 2020-03-27 | 2020-08-14 | 2020-12-08 | 256 days | finished |
 | Yemen | 0 | 0 | 102 | 1,824 | 22,730 | 2020-04-30 | 2020-07-13 | 2020-12-07 | 221 days | finished |
-| World | -1 | -1 | 1,482 | 5,240 | 406,213 | 2020-03-09 | 2020-12-02 | 2020-12-08 | 274 days | finished |
+| World | -1 | -1 | 1,482 | 5,240 | 406,211 | 2020-03-09 | 2020-12-02 | 2020-12-08 | 274 days | finished |
 
