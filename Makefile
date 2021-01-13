@@ -3,7 +3,7 @@
 all: download dataset check analyze
 
 download:
-	wget -q -N https://raw.githubusercontent.com/canghailan/Wuhan-2019-nCoV/master/Wuhan-2019-nCoV.json -O ncov.json
+	wget -q -N https://raw.githubusercontent.com/herman6888/Wuhan-2019-nCoV/master/Wuhan-2019-nCoV.json -O ncov.json
 	wget -q -N https://raw.githubusercontent.com/samayo/country-json/master/src/country-by-abbreviation.json -O country-code.json
 	wget -q -N https://raw.githubusercontent.com/samayo/country-json/master/src/country-by-population.json -O country-population.json
 

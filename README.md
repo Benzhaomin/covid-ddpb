@@ -4,7 +4,7 @@ A look at the daily death per capita caused by COVID-19 over time.
 
 Sources:
 
-- [canghailan/Wuhan-2019-nCoV](https://github.com/canghailan/Wuhan-2019-nCoV).
+- [herman6888/Wuhan-2019-nCoV](https://github.com/herman6888/Wuhan-2019-nCoV).
 - which itself uses [今日头条/Toutiao](https://i.snssdk.com/forum/home/v1/info/?forum_id=1656784762444839)
 
 Publications:
