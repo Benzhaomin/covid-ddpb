@@ -1,116 +1,116 @@
 
 # Analysis
 
-Generated from data up to 2021-04-13 (included), on 2021-04-14T19:01:33.352964.
+Generated from data up to 2021-04-13 (included), on 2021-04-14T19:22:23.995549.
 
 77 countries have a hard-hitting epidemic ongoing out of 101 with enough data.
 
 We consider a `DDPB`, or Daily Death Per Billion, over 30 to mean the epidemic is ongoing.
-mAverage is moving over the last 5 days, tAverage is over the whole duration.
+mAverage is moving over the last 5 days.
 
 
-| Country | DDPB | mAverage | tAverage | Peak | Total | Start | Peak Date | End | Duration |  Status |
-|---------|-----:|---------:|---------:|-----:|------:|-------|-----------|-----|----------|---------|
-| Bulgaria | 18,078 | 3,615 | 5,287 | 266,048 | 2,099,196 | 2020-03-12 | 2020-12-09 | None | 397 days | ongoing |
-| Uruguay | 17,974 | 3,594 | 1,216 | 133,940 | 462,299 | 2020-03-29 | 2021-04-04 | None | 380 days | ongoing |
-| Brazil | 17,601 | 3,520 | 4,390 | 118,079 | 1,712,412 | 2020-03-19 | 2021-04-04 | None | 390 days | ongoing |
-| Poland | 16,984 | 3,396 | 3,951 | 147,519 | 1,556,751 | 2020-03-15 | 2020-12-09 | None | 394 days | ongoing |
-| Montenegro | 15,842 | 3,168 | 5,738 | 148,918 | 2,203,550 | 2020-03-25 | 2020-12-09 | None | 384 days | ongoing |
-| North Macedonia | 12,953 | 2,590 | 5,330 | 187,586 | 2,057,546 | 2020-03-23 | 2020-12-09 | None | 386 days | ongoing |
-| Paraguay | 12,794 | 2,558 | 1,849 | 78,348 | 715,649 | 2020-03-22 | 2021-04-04 | None | 387 days | ongoing |
-| Moldova | 10,716 | 2,143 | 5,139 | 134,882 | 2,009,409 | 2020-03-18 | 2020-12-09 | None | 391 days | ongoing |
-| Romania | 9,914 | 1,982 | 3,376 | 112,451 | 1,306,771 | 2020-03-22 | 2020-12-09 | None | 387 days | ongoing |
-| Greece | 8,665 | 1,733 | 2,124 | 116,290 | 843,526 | 2020-03-12 | 2020-12-09 | None | 397 days | ongoing |
-| Jordan | 8,236 | 1,647 | 2,092 | 72,820 | 797,106 | 2020-03-28 | 2021-04-04 | None | 381 days | ongoing |
-| Peru | 8,096 | 1,619 | 4,458 | 123,010 | 1,734,447 | 2020-03-20 | 2020-08-14 | None | 389 days | ongoing |
-| Italy | 7,877 | 1,575 | 4,579 | 152,858 | 1,905,063 | 2020-02-22 | 2020-12-09 | None | 416 days | ongoing |
-| Colombia | 6,566 | 1,313 | 3,504 | 59,135 | 1,338,880 | 2020-03-27 | 2020-12-09 | None | 382 days | ongoing |
-| Latvia | 6,226 | 1,245 | 2,769 | 97,033 | 1,038,722 | 2020-04-03 | 2020-12-09 | None | 375 days | ongoing |
-| Croatia | 6,115 | 1,223 | 3,997 | 267,867 | 1,555,204 | 2020-03-20 | 2020-12-09 | None | 389 days | ongoing |
-| Tunisia | 5,533 | 1,106 | 2,099 | 55,424 | 812,317 | 2020-03-22 | 2020-12-09 | None | 387 days | ongoing |
-| Costa Rica | 5,200 | 1,040 | 1,561 | 45,205 | 608,810 | 2020-03-19 | 2020-12-09 | None | 390 days | ongoing |
-| France | 5,151 | 1,030 | 3,693 | 92,285 | 1,488,568 | 2020-03-06 | 2020-12-09 | None | 403 days | ongoing |
-| Lebanon | 5,110 | 1,022 | 2,465 | 136,663 | 983,758 | 2020-03-10 | 2021-01-31 | None | 399 days | ongoing |
-| Serbia | 5,026 | 1,005 | 2,169 | 111,577 | 839,500 | 2020-03-22 | 2020-12-09 | None | 387 days | ongoing |
-| Argentina | 4,877 | 975 | 3,407 | 75,312 | 1,308,446 | 2020-03-25 | 2020-10-02 | None | 384 days | ongoing |
-| Austria | 4,750 | 950 | 2,786 | 185,848 | 1,106,042 | 2020-03-12 | 2020-12-09 | None | 397 days | ongoing |
-| Germany | 4,342 | 868 | 2,469 | 105,698 | 977,967 | 2020-03-13 | 2020-12-09 | None | 396 days | ongoing |
-| Palestine | 3,939 | 787 | 1,667 | 76,601 | 635,232 | 2020-03-28 | 2020-12-09 | None | 381 days | ongoing |
-| Sweden | 3,832 | 766 | 3,387 | 108,105 | 1,344,828 | 2020-03-12 | 2020-12-09 | None | 397 days | ongoing |
-| Ireland | 3,698 | 739 | 2,491 | 96,973 | 989,106 | 2020-03-12 | 2021-01-31 | None | 397 days | ongoing |
-| Iran | 3,557 | 711 | 1,920 | 41,674 | 795,105 | 2020-02-24 | 2020-12-09 | None | 414 days | ongoing |
-| Azerbaijan | 3,420 | 684 | 1,007 | 62,274 | 400,086 | 2020-03-12 | 2020-12-09 | None | 397 days | ongoing |
-| Turkey | 3,316 | 663 | 1,078 | 42,505 | 418,377 | 2020-03-21 | 2020-12-09 | None | 388 days | ongoing |
-| Sudan | 3,133 | 626 | 143 | 6,650 | 52,401 | 2020-04-14 | 2020-11-09 | None | 364 days | ongoing |
-| Ecuador | 3,102 | 620 | 2,570 | 222,425 | 1,015,428 | 2020-03-14 | 2020-09-07 | None | 395 days | ongoing |
-| World | 2,827 | 564 | 1,957 | 57,664 | 783,158 | 2020-03-09 | 2020-12-09 | None | 400 days | ongoing |
-| United States | 2,696 | 539 | 4,483 | 123,481 | 1,766,572 | 2020-03-15 | 2020-12-09 | None | 394 days | ongoing |
-| Puerto Rico | 2,190 | 438 | 1,757 | 58,839 | 676,446 | 2020-03-24 | 2020-12-09 | None | 385 days | ongoing |
-| Guatemala | 2,145 | 429 | 1,041 | 25,742 | 409,188 | 2020-03-16 | 2020-12-09 | None | 393 days | ongoing |
-| Spain | 2,136 | 427 | 4,149 | 65,539 | 1,672,251 | 2020-03-06 | 2021-01-31 | None | 403 days | ongoing |
-| Slovenia | 1,928 | 385 | 5,054 | 299,918 | 1,991,319 | 2020-03-15 | 2020-12-09 | None | 394 days | ongoing |
-| Chile | 1,868 | 373 | 3,382 | 56,436 | 1,308,904 | 2020-03-22 | 2020-07-18 | None | 387 days | ongoing |
-| Oman | 1,863 | 372 | 987 | 22,362 | 372,215 | 2020-04-01 | 2021-04-04 | None | 377 days | ongoing |
-| Netherlands | 1,799 | 359 | 2,422 | 53,912 | 976,330 | 2020-03-06 | 2020-12-09 | None | 403 days | ongoing |
-| Albania | 1,744 | 348 | 2,038 | 65,936 | 811,313 | 2020-03-11 | 2020-12-09 | None | 398 days | ongoing |
-| Kuwait | 1,691 | 338 | 916 | 17,644 | 342,831 | 2020-04-04 | 2021-04-04 | None | 374 days | ongoing |
-| Panama | 1,436 | 287 | 3,712 | 100,553 | 1,477,728 | 2020-03-11 | 2020-12-09 | None | 398 days | ongoing |
-| South Africa | 1,159 | 231 | 2,420 | 51,869 | 924,445 | 2020-03-27 | 2020-12-09 | None | 382 days | ongoing |
-| Belarus | 1,054 | 210 | 661 | 13,286 | 250,100 | 2020-03-31 | 2020-12-09 | None | 378 days | ongoing |
-| Iraq | 1,014 | 202 | 952 | 8,508 | 384,922 | 2020-03-05 | 2021-04-04 | None | 404 days | ongoing |
-| Canada | 971 | 194 | 1,609 | 44,471 | 631,063 | 2020-03-17 | 2020-12-09 | None | 392 days | ongoing |
-| India | 758 | 151 | 345 | 4,756 | 127,068 | 2020-04-10 | 2021-04-04 | None | 368 days | ongoing |
-| Switzerland | 704 | 140 | 3,073 | 167,856 | 1,241,791 | 2020-03-05 | 2020-12-09 | None | 404 days | ongoing |
-| Venezuela | 692 | 138 | 164 | 5,126 | 62,931 | 2020-03-27 | 2021-04-04 | None | 382 days | ongoing |
-| Israel | 562 | 112 | 1,830 | 46,494 | 710,093 | 2020-03-21 | 2021-01-31 | None | 388 days | ongoing |
-| Finland | 543 | 108 | 411 | 15,773 | 159,661 | 2020-03-21 | 2020-12-09 | None | 388 days | ongoing |
-| Denmark | 517 | 103 | 1,074 | 30,378 | 423,289 | 2020-03-15 | 2020-12-09 | None | 394 days | ongoing |
-| Kenya | 505 | 101 | 123 | 3,152 | 46,440 | 2020-04-02 | 2021-04-04 | None | 376 days | ongoing |
-| Portugal | 486 | 97 | 4,197 | 220,929 | 1,645,430 | 2020-03-17 | 2021-01-31 | None | 392 days | ongoing |
-| Dominican Republic | 470 | 94 | 815 | 19,290 | 319,494 | 2020-03-17 | 2021-01-31 | None | 392 days | ongoing |
-| Indonesia | 470 | 94 | 408 | 8,929 | 159,661 | 2020-03-18 | 2020-12-09 | None | 391 days | ongoing |
-| Bangladesh | 427 | 85 | 166 | 3,774 | 61,120 | 2020-04-10 | 2021-04-04 | None | 368 days | ongoing |
-| United Arab Emirates | 415 | 83 | 410 | 9,864 | 159,436 | 2020-03-21 | 2021-01-31 | None | 388 days | ongoing |
-| Syria | 414 | 82 | 216 | 10,528 | 82,219 | 2020-03-30 | 2020-12-09 | None | 379 days | ongoing |
-| Egypt | 396 | 79 | 329 | 4,409 | 127,083 | 2020-03-23 | 2021-01-31 | None | 386 days | ongoing |
-| Malaysia | 380 | 76 | 110 | 4,408 | 43,409 | 2020-03-17 | 2021-01-31 | None | 392 days | ongoing |
-| Japan | 347 | 69 | 188 | 6,567 | 75,002 | 2020-03-11 | 2021-01-31 | None | 398 days | ongoing |
-| Libyan Arab Jamahiriya | 299 | 59 | 1,130 | 21,561 | 424,071 | 2020-04-03 | 2021-04-04 | None | 375 days | ongoing |
-| Saudi Arabia | 237 | 47 | 528 | 4,807 | 200,842 | 2020-03-29 | 2020-12-09 | None | 380 days | ongoing |
-| South Korea | 232 | 46 | 83 | 3,681 | 34,679 | 2020-02-23 | 2020-12-09 | None | 415 days | ongoing |
-| Ethiopia | 201 | 40 | 93 | 2,490 | 29,446 | 2020-06-03 | 2021-04-04 | None | 314 days | ongoing |
-| Nepal | 178 | 35 | 328 | 22,002 | 108,765 | 2020-05-17 | 2021-02-25 | None | 331 days | ongoing |
-| Yemen | 175 | 35 | 112 | 4,772 | 39,099 | 2020-04-30 | 2021-04-04 | None | 348 days | ongoing |
-| Morocco | 166 | 33 | 649 | 19,706 | 247,269 | 2020-03-28 | 2020-12-09 | None | 381 days | ongoing |
-| Senegal | 126 | 25 | 180 | 4,099 | 68,114 | 2020-04-01 | 2021-01-31 | None | 377 days | ongoing |
-| Zambia | 115 | 23 | 188 | 7,203 | 70,752 | 2020-04-02 | 2021-01-31 | None | 376 days | ongoing |
-| Mozambique | 101 | 20 | 86 | 3,525 | 27,947 | 2020-05-26 | 2021-01-31 | None | 322 days | ongoing |
-| Afghanistan | 80 | 16 | 177 | 5,299 | 68,057 | 2020-03-25 | 2020-12-09 | None | 384 days | ongoing |
-| Algeria | 71 | 14 | 188 | 3,788 | 74,157 | 2020-03-15 | 2020-12-09 | None | 394 days | ongoing |
-| Zimbabwe | 69 | 13 | 276 | 10,250 | 106,792 | 2020-03-23 | 2021-01-31 | None | 386 days | ongoing |
-| Malawi | 55 | 11 | 168 | 11,739 | 62,392 | 2020-04-07 | 2021-01-31 | None | 371 days | ongoing |
-| Armenia | 0 | 0 | 3,428 | 101,972 | 1,278,715 | 2020-03-27 | 2020-12-09 | 2021-04-04 | 373 days | finished |
-| Australia | 0 | 0 | 91 | 2,361 | 36,482 | 2020-03-01 | 2020-09-04 | 2021-04-04 | 399 days | finished |
-| Belgium | 0 | 0 | 5,310 | 114,665 | 2,065,716 | 2020-03-11 | 2020-12-09 | 2021-04-04 | 389 days | finished |
-| Bolivia | 0 | 0 | 2,967 | 141,810 | 1,098,126 | 2020-03-30 | 2020-09-07 | 2021-04-04 | 370 days | finished |
-| Bosnia and Herzegovina | 0 | 0 | 6,733 | 234,662 | 2,255,650 | 2020-05-04 | 2020-12-09 | 2021-04-04 | 335 days | finished |
-| Cameroon | 0 | 0 | 97 | 5,155 | 36,392 | 2020-03-25 | 2021-04-01 | 2021-04-04 | 375 days | finished |
-| China | 0 | 0 | 43 | 926 | 3,369 | 2020-01-30 | 2020-04-16 | 2020-04-16 | 77 days | finished |
-| Czech Republic | 0 | 0 | 6,998 | 143,556 | 2,638,366 | 2020-03-23 | 2020-12-09 | 2021-04-04 | 377 days | finished |
-| El Salvador | 0 | 0 | 868 | 15,107 | 319,720 | 2020-04-01 | 2020-12-09 | 2021-04-04 | 368 days | finished |
-| Estonia | 0 | 0 | 2,139 | 89,260 | 797,962 | 2020-03-27 | 2021-04-04 | 2021-04-04 | 373 days | finished |
-| Georgia | 0 | 0 | 2,870 | 162,616 | 1,044,846 | 2020-04-05 | 2020-12-09 | 2021-04-04 | 364 days | finished |
-| Honduras | 0 | 0 | 1,358 | 23,780 | 506,860 | 2020-03-27 | 2021-04-04 | 2021-04-04 | 373 days | finished |
-| Hungary | 0 | 0 | 6,371 | 253,284 | 2,452,893 | 2020-03-15 | 2021-04-04 | 2021-04-04 | 385 days | finished |
-| Kazakhstan | 0 | 0 | 478 | 14,502 | 178,358 | 2020-03-27 | 2020-08-04 | 2021-04-04 | 373 days | finished |
-| Kyrgyzstan | 0 | 0 | 853 | 114,980 | 312,267 | 2020-04-03 | 2020-07-19 | 2021-04-04 | 366 days | finished |
-| Lithuania | 0 | 0 | 3,496 | 149,917 | 1,325,211 | 2020-03-21 | 2020-12-09 | 2021-04-04 | 379 days | finished |
-| Mexico | 0 | 0 | 4,466 | 76,241 | 1,661,600 | 2020-03-28 | 2021-01-31 | 2021-04-04 | 372 days | finished |
-| Myanmar | 0 | 0 | 186 | 6,553 | 59,644 | 2020-04-08 | 2020-12-09 | 2021-02-21 | 319 days | finished |
-| Nigeria | 0 | 0 | 31 | 459 | 10,410 | 2020-04-30 | 2021-01-31 | 2021-03-30 | 334 days | finished |
-| Pakistan | 0 | 0 | 199 | 4,650 | 73,431 | 2020-03-31 | 2020-12-09 | 2021-04-04 | 369 days | finished |
-| Philippines | 0 | 0 | 368 | 17,468 | 143,154 | 2020-03-12 | 2021-04-04 | 2021-04-04 | 388 days | finished |
-| Russian Federation | 0 | 0 | 1,942 | 53,662 | 716,893 | 2020-03-31 | 2020-12-09 | 2021-04-04 | 369 days | finished |
-| Slovakia | 0 | 0 | 5,165 | 141,000 | 1,968,239 | 2020-03-19 | 2021-04-04 | 2021-04-04 | 381 days | finished |
-| Ukraine | 0 | 0 | 2,274 | 82,536 | 845,982 | 2020-03-28 | 2021-04-04 | 2021-04-04 | 372 days | finished |
+| Rank | Country | DDPB | mAverage | Total | Status |
+|------|---------|-----:|---------:|------:|--------|
+| 1 | Bulgaria | 18,078 | 3,615 | 2,099,196 | ongoing |
+| 2 | Uruguay | 17,974 | 3,594 | 462,299 | ongoing |
+| 3 | Brazil | 17,601 | 3,520 | 1,712,412 | ongoing |
+| 4 | Poland | 16,984 | 3,396 | 1,556,751 | ongoing |
+| 5 | Montenegro | 15,842 | 3,168 | 2,203,550 | ongoing |
+| 6 | North Macedonia | 12,953 | 2,590 | 2,057,546 | ongoing |
+| 7 | Paraguay | 12,794 | 2,558 | 715,649 | ongoing |
+| 8 | Moldova | 10,716 | 2,143 | 2,009,409 | ongoing |
+| 9 | Romania | 9,914 | 1,982 | 1,306,771 | ongoing |
+| 10 | Greece | 8,665 | 1,733 | 843,526 | ongoing |
+| 11 | Jordan | 8,236 | 1,647 | 797,106 | ongoing |
+| 12 | Peru | 8,096 | 1,619 | 1,734,447 | ongoing |
+| 13 | Italy | 7,877 | 1,575 | 1,905,063 | ongoing |
+| 14 | Colombia | 6,566 | 1,313 | 1,338,880 | ongoing |
+| 15 | Latvia | 6,226 | 1,245 | 1,038,722 | ongoing |
+| 16 | Croatia | 6,115 | 1,223 | 1,555,204 | ongoing |
+| 17 | Tunisia | 5,533 | 1,106 | 812,317 | ongoing |
+| 18 | Costa Rica | 5,200 | 1,040 | 608,810 | ongoing |
+| 19 | France | 5,151 | 1,030 | 1,488,568 | ongoing |
+| 20 | Lebanon | 5,110 | 1,022 | 983,758 | ongoing |
+| 21 | Serbia | 5,026 | 1,005 | 839,500 | ongoing |
+| 22 | Argentina | 4,877 | 975 | 1,308,446 | ongoing |
+| 23 | Austria | 4,750 | 950 | 1,106,042 | ongoing |
+| 24 | Germany | 4,342 | 868 | 977,967 | ongoing |
+| 25 | Palestine | 3,939 | 787 | 635,232 | ongoing |
+| 26 | Sweden | 3,832 | 766 | 1,344,828 | ongoing |
+| 27 | Ireland | 3,698 | 739 | 989,106 | ongoing |
+| 28 | Iran | 3,557 | 711 | 795,105 | ongoing |
+| 29 | Azerbaijan | 3,420 | 684 | 400,086 | ongoing |
+| 30 | Turkey | 3,316 | 663 | 418,377 | ongoing |
+| 31 | Sudan | 3,133 | 626 | 52,401 | ongoing |
+| 32 | Ecuador | 3,102 | 620 | 1,015,428 | ongoing |
+| 33 | World | 2,827 | 564 | 783,158 | ongoing |
+| 34 | United States | 2,696 | 539 | 1,766,572 | ongoing |
+| 35 | Puerto Rico | 2,190 | 438 | 676,446 | ongoing |
+| 36 | Guatemala | 2,145 | 429 | 409,188 | ongoing |
+| 37 | Spain | 2,136 | 427 | 1,672,251 | ongoing |
+| 38 | Slovenia | 1,928 | 385 | 1,991,319 | ongoing |
+| 39 | Chile | 1,868 | 373 | 1,308,904 | ongoing |
+| 40 | Oman | 1,863 | 372 | 372,215 | ongoing |
+| 41 | Netherlands | 1,799 | 359 | 976,330 | ongoing |
+| 42 | Albania | 1,744 | 348 | 811,313 | ongoing |
+| 43 | Kuwait | 1,691 | 338 | 342,831 | ongoing |
+| 44 | Panama | 1,436 | 287 | 1,477,728 | ongoing |
+| 45 | South Africa | 1,159 | 231 | 924,445 | ongoing |
+| 46 | Belarus | 1,054 | 210 | 250,100 | ongoing |
+| 47 | Iraq | 1,014 | 202 | 384,922 | ongoing |
+| 48 | Canada | 971 | 194 | 631,063 | ongoing |
+| 49 | India | 758 | 151 | 127,068 | ongoing |
+| 50 | Switzerland | 704 | 140 | 1,241,791 | ongoing |
+| 51 | Venezuela | 692 | 138 | 62,931 | ongoing |
+| 52 | Israel | 562 | 112 | 710,093 | ongoing |
+| 53 | Finland | 543 | 108 | 159,661 | ongoing |
+| 54 | Denmark | 517 | 103 | 423,289 | ongoing |
+| 55 | Kenya | 505 | 101 | 46,440 | ongoing |
+| 56 | Portugal | 486 | 97 | 1,645,430 | ongoing |
+| 57 | Dominican Republic | 470 | 94 | 319,494 | ongoing |
+| 58 | Indonesia | 470 | 94 | 159,661 | ongoing |
+| 59 | Bangladesh | 427 | 85 | 61,120 | ongoing |
+| 60 | United Arab Emirates | 415 | 83 | 159,436 | ongoing |
+| 61 | Syria | 414 | 82 | 82,219 | ongoing |
+| 62 | Egypt | 396 | 79 | 127,083 | ongoing |
+| 63 | Malaysia | 380 | 76 | 43,409 | ongoing |
+| 64 | Japan | 347 | 69 | 75,002 | ongoing |
+| 65 | Libyan Arab Jamahiriya | 299 | 59 | 424,071 | ongoing |
+| 66 | Saudi Arabia | 237 | 47 | 200,842 | ongoing |
+| 67 | South Korea | 232 | 46 | 34,679 | ongoing |
+| 68 | Ethiopia | 201 | 40 | 29,446 | ongoing |
+| 69 | Nepal | 178 | 35 | 108,765 | ongoing |
+| 70 | Yemen | 175 | 35 | 39,099 | ongoing |
+| 71 | Morocco | 166 | 33 | 247,269 | ongoing |
+| 72 | Senegal | 126 | 25 | 68,114 | ongoing |
+| 73 | Zambia | 115 | 23 | 70,752 | ongoing |
+| 74 | Mozambique | 101 | 20 | 27,947 | ongoing |
+| 75 | Afghanistan | 80 | 16 | 68,057 | ongoing |
+| 76 | Algeria | 71 | 14 | 74,157 | ongoing |
+| 77 | Zimbabwe | 69 | 13 | 106,792 | ongoing |
+| 78 | Malawi | 55 | 11 | 62,392 | ongoing |
+| 79 | Armenia | 0 | 0 | 1,278,715 | finished |
+| 80 | Australia | 0 | 0 | 36,482 | finished |
+| 81 | Belgium | 0 | 0 | 2,065,716 | finished |
+| 82 | Bolivia | 0 | 0 | 1,098,126 | finished |
+| 83 | Bosnia and Herzegovina | 0 | 0 | 2,255,650 | finished |
+| 84 | Cameroon | 0 | 0 | 36,392 | finished |
+| 85 | China | 0 | 0 | 3,369 | finished |
+| 86 | Czech Republic | 0 | 0 | 2,638,366 | finished |
+| 87 | El Salvador | 0 | 0 | 319,720 | finished |
+| 88 | Estonia | 0 | 0 | 797,962 | finished |
+| 89 | Georgia | 0 | 0 | 1,044,846 | finished |
+| 90 | Honduras | 0 | 0 | 506,860 | finished |
+| 91 | Hungary | 0 | 0 | 2,452,893 | finished |
+| 92 | Kazakhstan | 0 | 0 | 178,358 | finished |
+| 93 | Kyrgyzstan | 0 | 0 | 312,267 | finished |
+| 94 | Lithuania | 0 | 0 | 1,325,211 | finished |
+| 95 | Mexico | 0 | 0 | 1,661,600 | finished |
+| 96 | Myanmar | 0 | 0 | 59,644 | finished |
+| 97 | Nigeria | 0 | 0 | 10,410 | finished |
+| 98 | Pakistan | 0 | 0 | 73,431 | finished |
+| 99 | Philippines | 0 | 0 | 143,154 | finished |
+| 100 | Russian Federation | 0 | 0 | 716,893 | finished |
+| 101 | Slovakia | 0 | 0 | 1,968,239 | finished |
+| 102 | Ukraine | 0 | 0 | 845,982 | finished |
 

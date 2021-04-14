@@ -105,14 +105,14 @@ Generated from data up to {lastdate} (included), on {timestamp}.
 {ong} countries have a hard-hitting epidemic ongoing out of {cnt} with enough data.
 
 We consider a `DDPB`, or Daily Death Per Billion, over {minddpb} to mean the epidemic is ongoing.
-mAverage is moving over the last {movavg} days, tAverage is over the whole duration.
+mAverage is moving over the last {movavg} days.
 
 {table}
 '''
 
 table = '''
-| Country | DDPB | mAverage | tAverage | Peak | Total | Start | Peak Date | End | Duration |  Status |
-|---------|-----:|---------:|---------:|-----:|------:|-------|-----------|-----|----------|---------|
+| Rank | Country | DDPB | mAverage | Total | Status |
+|------|---------|-----:|---------:|------:|--------|
 '''
 
 if __name__ == "__main__":
@@ -156,12 +156,11 @@ if __name__ == "__main__":
 
     summary.sort(key=lambda d: d['ddpb'], reverse=True)
 
-    for s in summary:
+    for i, s in enumerate(summary):
         peak = '**' if s["ddpb"] == s["peakvalue"] else ''
-        table += f'| {s["country"]} | {peak}{s["ddpb"]:,}{peak} | {s["mavg"]:,} | {s["tavg"]:,} |' \
-                 f' {s["peakvalue"]:,} | {s["tdpb"]:,} |' \
-                 f' {s["start"]} | {s["peakdate"]} | {s["end"]} |' \
-                 f' {s["duration"]} days | {s["status"]} |\n'
+        table += f'| {i+1} | {s["country"]} | {peak}{s["ddpb"]:,}{peak} | {s["mavg"]:,} |' \
+                 f' {s["tdpb"]:,} |' \
+                 f' {s["status"]} |\n'
 
     markdown = markdown.format(
         timestamp=datetime.datetime.utcnow().isoformat(),
