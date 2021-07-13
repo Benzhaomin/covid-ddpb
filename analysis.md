@@ -1,9 +1,9 @@
 
 # Analysis
 
-Generated from data up to 2021-07-09 (included), on 2021-07-10T21:49:20.978218.
+Generated from data up to 2021-07-12 (included), on 2021-07-13T05:35:22.244028.
 
-89 countries have a hard-hitting epidemic ongoing out of 112 with enough data.
+81 countries have a hard-hitting epidemic ongoing out of 112 with enough data.
 
 We consider a `DDPB`, or Daily Death Per Billion, over 30 to mean the epidemic is ongoing.
 mAverage is moving over the last 5 days.
@@ -11,117 +11,117 @@ mAverage is moving over the last 5 days.
 
 | Rank | Country | DDPB | mAverage | Total | Status |
 |------|---------|-----:|---------:|------:|--------|
-| 1 | Tunisia | 16,342 | 11,637 | 1,387,625 | ongoing |
-| 2 | Colombia | 11,601 | 11,419 | 2,250,220 | ongoing |
-| 3 | Paraguay | 11,069 | 13,225 | 1,984,719 | ongoing |
-| 4 | Brazil | 6,841 | 6,971 | 2,538,551 | ongoing |
-| 5 | Chile | 6,513 | 5,691 | 1,795,692 | ongoing |
-| 6 | South Africa | 6,472 | 7,036 | 1,105,265 | ongoing |
-| 7 | Argentina | 5,483 | 10,086 | 2,206,805 | ongoing |
-| 8 | Uruguay | 5,218 | 5,855 | 1,678,449 | ongoing |
-| 9 | Bolivia | 5,196 | 3,628 | 1,508,276 | ongoing |
-| 10 | Peru | 5,189 | 5,251 | 6,061,484 | ongoing |
-| 11 | Russian Federation | 5,024 | 4,949 | 979,172 | ongoing |
-| 12 | Kuwait | 4,350 | 3,480 | 504,728 | ongoing |
-| 13 | Zimbabwe | 3,809 | 2,853 | 144,233 | ongoing |
-| 14 | Zambia | 3,688 | 3,376 | 157,565 | ongoing |
-| 15 | Panama | 3,591 | 1,915 | 1,583,267 | ongoing |
-| 16 | Indonesia | 3,254 | 3,025 | 241,247 | ongoing |
-| 17 | Costa Rica | 2,600 | 3,480 | 954,621 | ongoing |
-| 18 | Malaysia | 2,442 | 3,063 | 190,375 | ongoing |
-| 19 | Mexico | 2,107 | 1,390 | 1,857,739 | ongoing |
-| 20 | Afghanistan | 2,071 | 1,909 | 151,574 | ongoing |
-| 21 | Ecuador | 2,048 | 1,673 | 1,275,973 | ongoing |
-| 22 | Sri Lanka | 1,984 | 1,826 | 158,426 | ongoing |
-| 23 | Guatemala | 1,971 | 2,110 | 559,078 | ongoing |
-| 24 | Bahrain | 1,911 | 1,783 | 875,353 | ongoing |
-| 25 | Cambodia | 1,846 | 1,661 | 52,572 | ongoing |
-| 26 | Iran | 1,784 | 1,835 | 1,045,524 | ongoing |
-| 27 | Honduras | 1,773 | 2,315 | 749,945 | ongoing |
-| 28 | Cuba | 1,763 | 1,763 | 127,934 | ongoing |
-| 29 | Georgia | 1,610 | 3,971 | 1,454,565 | ongoing |
-| 30 | Montenegro | 1,584 | 1,584 | 2,566,309 | ongoing |
-| 31 | Kyrgyzstan | 1,581 | 1,454 | 399,366 | ongoing |
-| 32 | Mongolia | 1,577 | 2,712 | 208,138 | ongoing |
-| 33 | United States | 1,518 | 865 | 1,906,005 | ongoing |
-| 34 | Romania | 1,489 | 2,763 | 1,756,532 | ongoing |
-| 35 | World | 1,451 | 1,593 | 948,522 | ongoing |
-| 36 | Armenia | 1,355 | 948 | 1,537,839 | ongoing |
-| 37 | Bangladesh | 1,313 | 1,163 | 98,962 | ongoing |
-| 38 | India | 1,216 | 652 | 300,805 | ongoing |
-| 39 | Myanmar | 1,191 | 990 | 68,542 | ongoing |
-| 40 | Belarus | 1,159 | 1,075 | 341,061 | ongoing |
-| 41 | Greece | 1,118 | 838 | 1,188,907 | ongoing |
-| 42 | Thailand | 1,037 | 886 | 36,428 | ongoing |
-| 43 | Jamaica | 1,022 | 1,567 | 378,404 | ongoing |
-| 44 | Dominican Republic | 846 | 413 | 364,809 | ongoing |
-| 45 | Iraq | 832 | 832 | 454,602 | ongoing |
-| 46 | El Salvador | 778 | 933 | 378,688 | ongoing |
-| 47 | Libyan Arab Jamahiriya | 748 | 628 | 484,225 | ongoing |
-| 48 | Moldova | 739 | 812 | 2,293,548 | ongoing |
-| 49 | Turkey | 716 | 560 | 609,056 | ongoing |
-| 50 | Nepal | 712 | 818 | 332,375 | ongoing |
-| 51 | Portugal | 680 | 583 | 1,666,691 | ongoing |
-| 52 | Uganda | 678 | 4,451 | 48,185 | ongoing |
-| 53 | Philippines | 656 | 1,070 | 240,940 | ongoing |
-| 54 | Jordan | 602 | 742 | 985,993 | ongoing |
-| 55 | Bulgaria | 569 | 1,536 | 2,582,003 | ongoing |
-| 56 | Latvia | 518 | 829 | 1,315,771 | ongoing |
-| 57 | Venezuela | 484 | 436 | 112,710 | ongoing |
-| 58 | North Macedonia | 479 | 95 | 2,632,264 | ongoing |
-| 59 | Poland | 447 | 357 | 1,978,715 | ongoing |
-| 60 | Palestine | 437 | 262 | 783,582 | ongoing |
-| 61 | Germany | 434 | 356 | 1,124,434 | ongoing |
-| 62 | Serbia | 430 | 258 | 1,020,259 | ongoing |
-| 63 | Saudi Arabia | 415 | 421 | 235,640 | ongoing |
-| 64 | United Arab Emirates | 415 | 394 | 192,202 | ongoing |
-| 65 | Italy | 413 | 353 | 2,114,684 | ongoing |
-| 66 | Malawi | 385 | 286 | 67,948 | ongoing |
-| 67 | Canada | 377 | 317 | 712,705 | ongoing |
-| 68 | Algeria | 307 | 264 | 90,075 | ongoing |
-| 69 | Lebanon | 292 | 292 | 1,149,176 | ongoing |
-| 70 | Mozambique | 271 | 291 | 33,095 | ongoing |
-| 71 | France | 268 | 372 | 1,665,032 | ongoing |
-| 72 | Ukraine | 268 | 456 | 1,177,917 | ongoing |
-| 73 | Israel | 225 | 134 | 724,592 | ongoing |
-| 74 | Azerbaijan | 201 | 80 | 501,056 | ongoing |
-| 75 | Senegal | 189 | 163 | 74,792 | ongoing |
-| 76 | Slovakia | 183 | 146 | 2,298,855 | ongoing |
-| 77 | Egypt | 172 | 211 | 166,077 | ongoing |
-| 78 | Japan | 158 | 146 | 118,270 | ongoing |
-| 79 | Morocco | 138 | 177 | 259,335 | ongoing |
-| 80 | Spain | 128 | 392 | 1,765,775 | ongoing |
-| 81 | Pakistan | 127 | 105 | 105,908 | ongoing |
-| 82 | Netherlands | 116 | 92 | 1,030,970 | ongoing |
-| 83 | Austria | 113 | 293 | 1,216,409 | ongoing |
-| 84 | Sweden | 98 | 235 | 1,438,172 | ongoing |
-| 85 | South Korea | 77 | 46 | 39,615 | ongoing |
-| 86 | The Democratic Republic of Congo | 71 | 44 | 11,511 | ongoing |
-| 87 | Syria | 59 | 106 | 111,984 | ongoing |
-| 88 | Kenya | 38 | 166 | 72,160 | ongoing |
-| 89 | Madagascar | 38 | 45 | 35,274 | ongoing |
-| 90 | Yemen | 35 | 35 | 49,358 | ongoing |
-| 91 | Ethiopia | 9 | 19 | 39,588 | finished |
-| 92 | China | 8 | 5 | 3,862 | finished |
-| 93 | Albania | 0 | 0 | 856,632 | finished |
-| 94 | Australia | 0 | 0 | 36,482 | finished |
-| 95 | Belgium | 0 | 192 | 2,213,753 | finished |
-| 96 | Bosnia and Herzegovina | 0 | 0 | 2,911,474 | finished |
-| 97 | Botswana | 0 | 3,903 | 533,204 | finished |
-| 98 | Cameroon | 0 | 0 | 52,447 | finished |
-| 99 | Croatia | 0 | 391 | 2,012,124 | finished |
-| 100 | Czech Republic | 0 | 413 | 2,854,135 | finished |
-| 101 | Denmark | 0 | 34 | 439,317 | finished |
-| 102 | Estonia | 0 | 151 | 965,105 | finished |
-| 103 | Finland | 0 | 108 | 178,316 | finished |
-| 104 | Hungary | 0 | 245 | 3,069,089 | finished |
-| 105 | Ireland | 0 | 246 | 1,031,208 | finished |
-| 106 | Kazakhstan | 0 | 1,094 | 266,038 | finished |
-| 107 | Lithuania | 0 | 427 | 1,568,954 | finished |
-| 108 | Nigeria | 0 | 1 | 10,718 | finished |
-| 109 | Oman | 0 | 3,644 | 697,890 | finished |
-| 110 | Puerto Rico | 0 | 62 | 798,757 | finished |
-| 111 | Slovenia | 0 | 385 | 2,132,568 | finished |
-| 112 | Sudan | 0 | 0 | 65,927 | finished |
-| 113 | Switzerland | 0 | 93 | 1,293,203 | finished |
+| 1 | Botswana | 22,625 | 5,767 | 555,829 | ongoing |
+| 2 | Argentina | 10,653 | 8,162 | 2,231,683 | ongoing |
+| 3 | Colombia | 10,252 | 11,105 | 2,282,526 | ongoing |
+| 4 | Tunisia | 9,165 | 13,125 | 1,426,015 | ongoing |
+| 5 | Peru | 7,471 | 5,626 | 6,079,582 | ongoing |
+| 6 | Chile | 5,499 | 6,962 | 1,814,058 | ongoing |
+| 7 | Uruguay | 5,218 | 4,348 | 1,690,914 | ongoing |
+| 8 | Russian Federation | 4,914 | 5,081 | 994,474 | ongoing |
+| 9 | Kuwait | 4,592 | 3,721 | 516,086 | ongoing |
+| 10 | Georgia | 4,293 | 3,971 | 1,467,176 | ongoing |
+| 11 | South Africa | 3,807 | 5,087 | 1,116,271 | ongoing |
+| 12 | Cuba | 3,704 | 3,068 | 139,222 | ongoing |
+| 13 | Brazil | 3,652 | 5,442 | 2,550,648 | ongoing |
+| 14 | Zimbabwe | 3,532 | 3,642 | 154,759 | ongoing |
+| 15 | Indonesia | 3,328 | 3,322 | 251,422 | ongoing |
+| 16 | Malaysia | 3,235 | 3,120 | 199,255 | ongoing |
+| 17 | Zambia | 2,593 | 2,869 | 165,113 | ongoing |
+| 18 | Oman | 2,484 | 3,271 | 711,141 | ongoing |
+| 19 | Iran | 2,224 | 1,906 | 1,051,610 | ongoing |
+| 20 | Kazakhstan | 1,860 | 1,805 | 273,534 | ongoing |
+| 21 | Bosnia and Herzegovina | 1,805 | 361 | 2,913,279 | ongoing |
+| 22 | Kyrgyzstan | 1,739 | 1,581 | 404,109 | ongoing |
+| 23 | Bolivia | 1,673 | 3,628 | 1,516,466 | ongoing |
+| 24 | Myanmar | 1,657 | 1,328 | 73,046 | ongoing |
+| 25 | Montenegro | 1,584 | 633 | 2,567,893 | ongoing |
+| 26 | Mongolia | 1,577 | 2,712 | 217,284 | ongoing |
+| 27 | Afghanistan | 1,560 | 2,001 | 157,249 | ongoing |
+| 28 | Sri Lanka | 1,430 | 1,679 | 162,993 | ongoing |
+| 29 | Cambodia | 1,415 | 1,562 | 56,879 | ongoing |
+| 30 | Bangladesh | 1,363 | 1,296 | 102,896 | ongoing |
+| 31 | World | 1,358 | 1,439 | 952,540 | ongoing |
+| 32 | El Salvador | 1,245 | 1,027 | 381,801 | ongoing |
+| 33 | Iraq | 1,144 | 930 | 457,618 | ongoing |
+| 34 | Armenia | 1,016 | 1,083 | 1,540,209 | ongoing |
+| 35 | Slovenia | 964 | 289 | 2,133,532 | ongoing |
+| 36 | Belarus | 949 | 1,096 | 344,223 | ongoing |
+| 37 | Greece | 931 | 726 | 1,190,489 | ongoing |
+| 38 | Philippines | 881 | 1,042 | 243,705 | ongoing |
+| 39 | Portugal | 777 | 738 | 1,668,828 | ongoing |
+| 40 | Moldova | 739 | 591 | 2,295,025 | ongoing |
+| 41 | Lithuania | 713 | 356 | 1,570,380 | ongoing |
+| 42 | Jordan | 703 | 863 | 988,503 | ongoing |
+| 43 | Nepal | 640 | 775 | 334,510 | ongoing |
+| 44 | Bahrain | 637 | 1,401 | 877,901 | ongoing |
+| 45 | Turkey | 595 | 558 | 610,549 | ongoing |
+| 46 | Uganda | 585 | 547 | 49,752 | ongoing |
+| 47 | Bulgaria | 569 | 426 | 2,582,856 | ongoing |
+| 48 | United States | 541 | 702 | 1,906,964 | ongoing |
+| 49 | Croatia | 489 | 244 | 2,012,857 | ongoing |
+| 50 | Mozambique | 474 | 420 | 34,755 | ongoing |
+| 51 | Saudi Arabia | 474 | 420 | 236,973 | ongoing |
+| 52 | Guatemala | 463 | 1,715 | 563,599 | ongoing |
+| 53 | Libyan Arab Jamahiriya | 449 | 598 | 485,871 | ongoing |
+| 54 | France | 418 | 280 | 1,665,792 | ongoing |
+| 55 | Morocco | 416 | 238 | 260,249 | ongoing |
+| 56 | United Arab Emirates | 415 | 477 | 193,965 | ongoing |
+| 57 | Venezuela | 415 | 352 | 113,990 | ongoing |
+| 58 | India | 403 | 632 | 302,404 | ongoing |
+| 59 | Slovakia | 367 | 183 | 2,299,589 | ongoing |
+| 60 | Spain | 363 | 217 | 1,766,138 | ongoing |
+| 61 | Algeria | 355 | 307 | 91,021 | ongoing |
+| 62 | Jamaica | 340 | 2,044 | 385,217 | ongoing |
+| 63 | Malawi | 330 | 418 | 69,158 | ongoing |
+| 64 | Puerto Rico | 312 | 187 | 799,381 | ongoing |
+| 65 | Hungary | 306 | 163 | 3,069,395 | ongoing |
+| 66 | Azerbaijan | 301 | 160 | 501,558 | ongoing |
+| 67 | Lebanon | 292 | 292 | 1,150,052 | ongoing |
+| 68 | Switzerland | 234 | 93 | 1,293,437 | ongoing |
+| 69 | Italy | 215 | 231 | 2,115,212 | ongoing |
+| 70 | Ukraine | 156 | 299 | 1,178,633 | ongoing |
+| 71 | Serbia | 143 | 286 | 1,021,119 | ongoing |
+| 72 | Germany | 132 | 269 | 1,124,903 | ongoing |
+| 73 | Angola | 129 | 90 | 30,457 | ongoing |
+| 74 | Senegal | 126 | 163 | 75,359 | ongoing |
+| 75 | Romania | 102 | 1,242 | 1,757,661 | ongoing |
+| 76 | Dominican Republic | 94 | 432 | 366,125 | ongoing |
+| 77 | Egypt | 71 | 144 | 166,432 | ongoing |
+| 78 | Pakistan | 70 | 120 | 106,269 | ongoing |
+| 79 | Syria | 59 | 70 | 112,161 | ongoing |
+| 80 | Netherlands | 58 | 69 | 1,031,086 | ongoing |
+| 81 | Canada | 53 | 274 | 713,215 | ongoing |
+| 82 | The Democratic Republic of Congo | 47 | 35 | 11,569 | ongoing |
+| 83 | Japan | 23 | 89 | 118,426 | finished |
+| 84 | Kenya | 19 | 69 | 72,256 | finished |
+| 85 | Albania | 0 | 0 | 856,632 | finished |
+| 86 | Austria | 0 | 90 | 1,216,522 | finished |
+| 87 | Belgium | 0 | 69 | 2,213,927 | finished |
+| 88 | Cameroon | 0 | 0 | 52,447 | finished |
+| 89 | China | 0 | 3 | 3,868 | finished |
+| 90 | Costa Rica | 0 | 800 | 954,621 | finished |
+| 91 | Czech Republic | 0 | 376 | 2,854,135 | finished |
+| 92 | Denmark | 0 | 34 | 439,489 | finished |
+| 93 | Ecuador | 0 | 1,193 | 1,277,552 | finished |
+| 94 | Estonia | 0 | 0 | 965,105 | finished |
+| 95 | Ethiopia | 0 | 9 | 39,597 | finished |
+| 96 | Finland | 0 | 0 | 178,316 | finished |
+| 97 | Honduras | 0 | 2,294 | 756,932 | finished |
+| 98 | Ireland | 0 | 0 | 1,031,208 | finished |
+| 99 | Israel | 0 | 202 | 725,041 | finished |
+| 100 | Latvia | 0 | 207 | 1,315,771 | finished |
+| 101 | North Macedonia | 0 | 95 | 2,632,264 | finished |
+| 102 | Madagascar | 0 | 15 | 35,274 | finished |
+| 103 | Mexico | 0 | 1,601 | 1,861,787 | finished |
+| 104 | Nigeria | 0 | 2 | 10,728 | finished |
+| 105 | Palestine | 0 | 218 | 784,237 | finished |
+| 106 | Panama | 0 | 1,580 | 1,587,576 | finished |
+| 107 | Paraguay | 0 | 7,848 | 2,000,819 | finished |
+| 108 | Poland | 0 | 241 | 1,978,925 | finished |
+| 109 | South Korea | 0 | 38 | 39,730 | finished |
+| 110 | Sudan | 0 | 0 | 65,927 | finished |
+| 111 | Sweden | 0 | 58 | 1,438,172 | finished |
+| 112 | Thailand | 0 | 1,163 | 40,128 | finished |
+| 113 | Yemen | 0 | 14 | 49,358 | finished |
 
